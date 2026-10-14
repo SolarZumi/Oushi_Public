@@ -1,0 +1,402 @@
+{
+  "sourceLanguage": "zh-Hans",
+  "strings": {
+    "CFBundleDisplayName": {
+      "comment": "App name on the Home Screen. ja, zh-Hant, zh-HK: 偶拾. Others: Oushi.",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "en-US": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "偶拾"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "lt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "zh-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "偶拾"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "偶拾"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "偶拾"
+          }
+        }
+      }
+    },
+    "CFBundleName": {
+      "comment": "Same as the display name.",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "en-US": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "偶拾"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "lt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi"
+          }
+        },
+        "zh-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "偶拾"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "偶拾"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "偶拾"
+          }
+        }
+      }
+    },
+    "NSPhotoLibraryUsageDescription": {
+      "comment": "System permission prompt. zh-Hans original: 偶拾需要访问照片，以便随机翻看、收藏和整理你的照片。下滑的照片会先保存在待删除池。",
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi benötigt Zugriff auf deine Fotos, um sie durchzublättern, zu favorisieren und aufzuräumen. Fotos, die du nach unten streichst, kommen zunächst auf eine Löschliste."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi needs access to your photos to flip through, favorite, and tidy them. Photos you swipe down are kept in a deletion queue first."
+          }
+        },
+        "en-US": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi needs access to your photos to flip through, favorite, and tidy them. Photos you swipe down are kept in a deletion queue first."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi necesita acceder a tus fotos para que puedas hojearlas, marcarlas como favoritas y ordenarlas. Las fotos que deslizas hacia abajo se marcan primero para eliminar."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi tarvitsee pääsyn kuviisi, jotta voit selata niitä, merkitä niitä suosikeiksi ja siivota niitä. Alas pyyhkäisemäsi kuvat siirtyvät ensin poistolistalle."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi a besoin d’accéder à vos photos pour que vous puissiez les parcourir, les ajouter aux favoris et les trier. Les photos que vous balayez vers le bas sont d’abord mises en attente de suppression."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi ha bisogno di accedere alle tue foto per sfogliarle, aggiungerle ai preferiti e riordinarle. Le foto che trascini verso il basso vengono prima segnate da eliminare."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "偶拾は、写真をランダムにめくって見たり、お気に入りに追加したり、整理したりするために写真へのアクセスを必要とします。下にスワイプした写真は、まず削除待ちに保管されます。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi가 사진을 무작위로 넘겨 보고, 즐겨찾기에 추가하고, 정리하려면 사진 접근 권한이 필요합니다. 아래로 쓸어넘긴 사진은 먼저 삭제 대기에 보관됩니다."
+          }
+        },
+        "lt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi reikia prieigos prie jūsų nuotraukų, kad galėtumėte jas naršyti, žymėti kaip mėgstamas ir tvarkyti. Žemyn nubrauktos nuotraukos pirmiausia įtraukiamos į ištrynimo eilę."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi heeft toegang tot je foto’s nodig om ze door te bladeren, als favoriet te markeren en op te ruimen. Foto’s die je omlaag veegt, komen eerst op een verwijderlijst."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi potrzebuje dostępu do zdjęć, aby można je było przeglądać, dodawać do ulubionych i porządkować. Zdjęcia przesunięte w dół są najpierw oznaczane do usunięcia."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O Oushi precisa acessar suas fotos para que você possa folheá-las, favoritá-las e organizá-las. As fotos que você desliza para baixo são primeiro marcadas para apagar."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi нужен доступ к фото, чтобы вы могли листать их, добавлять в избранное и наводить порядок. Фото, которые вы смахиваете вниз, сначала только отмечаются к удалению."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi ต้องการเข้าถึงรูปภาพของคุณเพื่อเลื่อนดู เพิ่มเป็นรายการโปรด และจัดระเบียบ รูปภาพที่คุณปัดลงจะถูกย้ายไปที่รายการที่รอลบก่อน"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi, fotoğraflarınıza göz atabilmeniz, onları favorilere ekleyebilmeniz ve düzenleyebilmeniz için fotoğraflarınıza erişmek ister. Aşağı kaydırdığınız fotoğraflar önce silinecekler listesinde tutulur."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi потрібен доступ до фото, щоб ви могли гортати їх, додавати до вибраного й упорядковувати. Фото, які ви посуваєте вниз, спершу лише позначаються до видалення."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oushi cần truy cập ảnh của bạn để lướt xem, yêu thích và sắp xếp. Ảnh bạn vuốt xuống sẽ được đưa vào mục chờ xóa trước."
+          }
+        },
+        "zh-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "偶拾需要存取你的相片，以便隨機翻看、加至個人收藏和整理。向下滑的相片會先保留在待刪除中。"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "偶拾需要访问照片，以便随机翻看、收藏和整理你的照片。下滑的照片会先保存在待删除池。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "偶拾需要取用你的照片，以便隨機翻看、加入喜好項目和整理。向下滑的照片會先保留在待刪除中。"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

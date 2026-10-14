@@ -1,0 +1,504 @@
+{
+  "_glossary": {
+    "偶拾": "The app's name. en/most languages: Oushi; ja, zh-Hant, zh-HK: 偶拾; ko: Oushi.",
+    "待删除": "The deletion queue: photos the user pulled down, kept in the library until confirmed. en: deletion queue / queued for deletion.",
+    "一组": "A batch: the 15–50 photos reviewed in one go. en: batch.",
+    "翻 / 翻看": "Flipping through cards. en: flip through / review.",
+    "收藏": "The Photos app's Favorite. Use each language's Photos app term.",
+    "恢复": "Take a photo back out of the deletion queue. en: Restore.",
+    "整理记录 / 浏览记录": "The app's record of what was seen and queued. en: records / history."
+  },
+  "strings": {
+    "未能完成": {
+      "en": "Couldn’t Complete",
+      "note": "Alert title for any error."
+    },
+    "好": {
+      "en": "OK",
+      "note": "Alert button."
+    },
+    "请稍后重试。": {
+      "en": "Please try again later.",
+      "note": "Alert fallback message."
+    },
+    "暂时无法载入照片": {
+      "en": "Can’t load this photo right now",
+      "note": "On a card whose photo failed to load."
+    },
+    "重试": {
+      "en": "Retry",
+      "note": "Button under that."
+    },
+    "这一项暂时无法修改收藏状态。": {
+      "en": "This item’s favorite status can’t be changed right now.",
+      "note": "Alert."
+    },
+    "收藏状态未能保存，请重试。": {
+      "en": "The favorite couldn’t be saved. Please try again.",
+      "note": "Alert."
+    },
+    "照片未能删除，请重试。": {
+      "en": "The photos couldn’t be deleted. Please try again.",
+      "note": "Alert."
+    },
+    "有 %lld 项无法从相册删除。": {
+      "en": {
+        "one": "%lld item couldn’t be deleted from your library.",
+        "other": "%lld items couldn’t be deleted from your library."
+      },
+      "note": "Alert after deleting from the queue: some of the chosen items cannot be deleted by the app (synced from a computer, for example); the rest were deleted."
+    },
+    "照片": {
+      "en": "Photo",
+      "note": "Accessibility name of a photo with no date; also the title line for a photo without a date."
+    },
+    "%@的照片": {
+      "en": "Photo from %@",
+      "note": "Accessibility name; %@ is a formatted date such as 'Oct 10, 2026'."
+    },
+    "%@的视频": {
+      "en": "Video from %@",
+      "note": "Accessibility name of a video; %@ is a formatted date such as 'Oct 10, 2026'."
+    },
+    "视频": {
+      "en": "Video",
+      "note": "Title line for a video without a date."
+    },
+    "需要访问相册": {
+      "en": "Photo Access Needed",
+      "note": "Access card title, before the user has answered."
+    },
+    "无法访问照片和视频": {
+      "en": "Can’t Access Photos and Videos",
+      "note": "Access card title, after refusal or when restricted."
+    },
+    "这台设备限制了对照片的访问。": {
+      "en": "Photo access is restricted on this device.",
+      "note": "Access card text, parental restrictions."
+    },
+    "请在“设置”中允许偶拾访问照片": {
+      "en": "Allow Oushi to access Photos in Settings",
+      "note": "Access card text after refusal. No final period."
+    },
+    "接下来系统会询问是否允许访问照片。偶拾不会上传你的照片，删除前也都会先经过你确认。": {
+      "en": "Next, the system will ask whether to allow access to your photos. Oushi never uploads your photos, and nothing is deleted without your confirmation.",
+      "note": "Access card text before the user has answered: says what comes next, so the button can be a plain Continue (App Review 5.1.1(iv): no 'Allow' on a button before the system prompt)."
+    },
+    "继续": {
+      "en": "Continue",
+      "note": "Access card button before the system prompt. Must stay neutral (Continue / Next), never 'Allow' (App Review 5.1.1(iv)). Use the system's own word for Continue."
+    },
+    "前往设置": {
+      "en": "Open Settings",
+      "note": "Button that opens the Settings app."
+    },
+    "偶拾": {
+      "en": "Oushi",
+      "note": "App name, shown as the title and on the progress capsule."
+    },
+    "再来一组": {
+      "en": "Another Batch",
+      "note": "Button / capsule text at the end of a batch."
+    },
+    "选择更多照片": {
+      "en": "Select More Photos",
+      "note": "Button under limited photo access."
+    },
+    "相册里没有照片和视频": {
+      "en": "No Photos or Videos",
+      "note": "Card title, empty library."
+    },
+    "拍了照片或视频之后再来看看。": {
+      "en": "Come back after you’ve taken some photos or videos.",
+      "note": "Card text, empty library."
+    },
+    "取消": {
+      "en": "Cancel",
+      "note": "Bar button, leaves selection mode."
+    },
+    "选择": {
+      "en": "Select",
+      "note": "Bar button, enters selection mode."
+    },
+    "设置": {
+      "en": "Settings",
+      "note": "Bar button and the settings screen's title."
+    },
+    "完成": {
+      "en": "Done",
+      "note": "Bar button."
+    },
+    "关闭": {
+      "en": "Close",
+      "note": "Bar button (x icon) that closes the settings screen."
+    },
+    "检查媒体": {
+      "en": "Review Media",
+      "note": "Bar button (photo stack icon) and the title of the media-review screen (the deletion queue). Keep short."
+    },
+    "检查媒体，%lld 项": {
+      "en": {
+        "one": "Review media, %lld item",
+        "other": "Review media, %lld items"
+      },
+      "note": "Accessibility label of that button."
+    },
+    "恢复": {
+      "en": "Restore",
+      "note": "Takes selected photos out of the queue."
+    },
+    "全部恢复": {
+      "en": "Restore All",
+      "note": ""
+    },
+    "恢复 %lld 项？": {
+      "en": {
+        "one": "Restore %lld Item?",
+        "other": "Restore %lld Items?"
+      },
+      "note": "Title of the confirmation sheet before restoring; %lld is how many."
+    },
+    "恢复后它们会移出待删除，留在相册里。": {
+      "en": "They leave the deletion queue and stay in your library.",
+      "note": "Message of that sheet."
+    },
+    "删除": {
+      "en": "Delete",
+      "note": ""
+    },
+    "全部删除": {
+      "en": "Delete All",
+      "note": ""
+    },
+    "已选择 %lld 项": {
+      "en": {
+        "one": "%lld Selected",
+        "other": "%lld Selected"
+      },
+      "note": "Title of the deletion queue screen while photos are selected, in place of its name. Must fit about 220 points at headline size."
+    },
+    "撤销": {
+      "en": "Undo",
+      "note": "Bar button."
+    },
+    "第 %lld 个，共 %lld 个": {
+      "en": "Item %1$lld of %2$lld",
+      "note": "Accessibility value of the capsule. Use positional %1$lld / %2$lld in every language."
+    },
+    "教程": {
+      "en": "Tutorial",
+      "note": "Capsule text during the lessons."
+    },
+    "没有可翻的了": {
+      "en": "Nothing Left to Flip",
+      "note": "Capsule text when the library is exhausted. Must fit about 140 points at 15-point semibold; a short phrase such as “all seen” is fine."
+    },
+    "所有内容都看过了": {
+      "en": "You’ve Seen Everything",
+      "note": "Card title once every photo and video has been seen (those in the deletion queue count)."
+    },
+    "重置浏览进度": {
+      "en": "Reset Review Progress",
+      "note": "Progress capsule once everything has been seen; asks before resetting the review history."
+    },
+    "重置浏览进度？": {
+      "en": "Reset Review Progress?",
+      "note": "Title of the alert in the middle of the screen before the review history is reset; its confirm button is 重置进度."
+    },
+    "这将清除所有浏览记录。已查看的照片和视频会重新出现，待删除的内容会保留。": {
+      "en": "This clears all review history. Photos and videos you’ve seen will come up again, and the deletion queue is kept.",
+      "note": "Message of that alert."
+    },
+    "还剩 %lld 个": {
+      "en": {
+        "one": "%lld left",
+        "other": "%lld left"
+      },
+      "note": "Capsule text: photos and videos left in the batch. Keep very short."
+    },
+    "您已查看 %lld 个内容": {
+      "en": {
+        "one": "You’ve reviewed %lld item",
+        "other": "You’ve reviewed %lld items"
+      },
+      "note": "Title line at the end of a batch. Must fit about 220 points at headline size."
+    },
+    "每组数量": {
+      "en": "Batch Size",
+      "note": "Settings row label, picker."
+    },
+    "%lld 项": {
+      "en": {
+        "one": "%lld item",
+        "other": "%lld items"
+      },
+      "note": "Picker options: 15, 20 … 50."
+    },
+    "无限": {
+      "en": "Unlimited",
+      "note": "Picker option after the batch sizes: a batch of the whole library."
+    },
+    "回顾顺序": {
+      "en": "Review Order",
+      "note": "Settings row label, picker."
+    },
+    "随机": {
+      "en": "Random",
+      "note": "Order option."
+    },
+    "从最近开始": {
+      "en": "Newest First",
+      "note": "Order option."
+    },
+    "从最老开始": {
+      "en": "Oldest First",
+      "note": "Order option."
+    },
+    "震动反馈": {
+      "en": "Haptic Feedback",
+      "note": "Settings toggle."
+    },
+    "照片 HDR": {
+      "en": "Photo HDR",
+      "note": "Settings toggle."
+    },
+    "视频 HDR": {
+      "en": "Video HDR",
+      "note": "Settings toggle."
+    },
+    "重新查看教程": {
+      "en": "Show Tutorial Again",
+      "note": "Settings button."
+    },
+    "重置进度": {
+      "en": "Reset Progress",
+      "note": "Settings button and the confirmation dialog's title."
+    },
+    "重置": {
+      "en": "Reset",
+      "note": "Destructive confirmation button."
+    },
+    "重置进度将会还原所有查看记录，媒体可能重复出现。待删除的内容会保留。": {
+      "en": "Resetting clears every viewing record, so items may come up again. The deletion queue is kept.",
+      "note": "Confirmation dialog message."
+    },
+    "iCloud 同步浏览记录": {
+      "en": "Sync History with iCloud",
+      "note": "Settings toggle."
+    },
+    "左滑或右滑以查看下一张": {
+      "en": "Swipe left or right for the next one",
+      "note": "Lesson card 1, main line."
+    },
+    "向下拉，放进待删除": {
+      "en": "Pull down to queue for deletion",
+      "note": "Lesson card 2, main line."
+    },
+    "%@ 查看待删除照片": {
+      "en": "%@ View queued photos",
+      "note": "Lesson card 3; %@ is an icon in front of the words. Keep the leading '%@ '."
+    },
+    "%@ 收藏照片": {
+      "en": "%@ Favorite a photo",
+      "note": "Lesson card 3; %@ is an icon."
+    },
+    "%@ 撤回操作": {
+      "en": "%@ Undo",
+      "note": "Lesson card 3; %@ is an icon."
+    },
+    "%@ 更多设置…": {
+      "en": "%@ More settings…",
+      "note": "Lesson card 3, last line; %@ is the settings (gear) icon. Keep the leading '%@ ' and the ellipsis."
+    },
+    "往左或往右滑": {
+      "en": "Swipe left or right",
+      "note": "Lesson card 1 footnote."
+    },
+    "往下拉": {
+      "en": "Pull down",
+      "note": "Lesson card 2 footnote."
+    },
+    "随意划走，开始使用": {
+      "en": "Swipe this away to begin",
+      "note": "Lesson card 3 footnote."
+    },
+    "欢迎使用": {
+      "en": "Welcome",
+      "note": "Shown alone in the middle of the screen for a moment after the last lesson, before the first photo."
+    },
+    "开始使用": {
+      "en": "Get Started",
+      "note": "The progress capsule during the welcome; tapping it brings the first photo."
+    },
+    "取消收藏": {
+      "en": "Remove Favorite",
+      "note": "Accessibility label of the heart when filled."
+    },
+    "收藏": {
+      "en": "Favorite",
+      "note": "Accessibility label of the heart."
+    },
+    "没有待删除媒体": {
+      "en": "Nothing Queued for Deletion",
+      "note": "Pill on the summary card (disabled) and the empty queue screen."
+    },
+    "检查 %lld 项媒体": {
+      "en": {
+        "one": "Review %lld Item",
+        "other": "Review %lld Items"
+      },
+      "note": "Pill on the summary card. Must fit about 280 points at headline size."
+    },
+    "这一组翻完了，待删除 %lld 个": {
+      "en": {
+        "one": "Batch complete, %lld queued for deletion",
+        "other": "Batch complete, %lld queued for deletion"
+      },
+      "note": "Accessibility label of the summary card."
+    },
+    "左右滑动保留，下滑移入待删除": {
+      "en": "Swipe sideways to keep, down to queue for deletion",
+      "note": "Accessibility hint on a photo card."
+    },
+    "保留": {
+      "en": "Keep",
+      "note": "Accessibility action."
+    },
+    "移入待删除": {
+      "en": "Queue for Deletion",
+      "note": "Accessibility action."
+    },
+    "关闭声音": {
+      "en": "Mute",
+      "note": "Accessibility label of the speaker on a video card."
+    },
+    "打开声音": {
+      "en": "Unmute",
+      "note": ""
+    },
+    "播放": {
+      "en": "Play",
+      "note": "Accessibility label of the play button on a video card."
+    },
+    "暂停": {
+      "en": "Pause",
+      "note": "Accessibility label of the pause button on a video card."
+    },
+    "之前的整理记录暂时无法读取。": {
+      "en": "Your earlier records can’t be read right now.",
+      "note": "Alert."
+    },
+    "整理记录暂时无法保存到本机，这次的记录在退出后会丢失。": {
+      "en": "Records can’t be saved on this device right now. This session’s records will be lost when you quit.",
+      "note": "Alert."
+    },
+    "iCloud 同步暂时无法开启，请确认已登录 iCloud。": {
+      "en": "iCloud sync can’t be turned on right now. Make sure you’re signed in to iCloud.",
+      "note": "Alert."
+    },
+    "整理记录暂时无法保存，请重试。": {
+      "en": "Records can’t be saved right now. Please try again.",
+      "note": "Alert."
+    },
+    "语言": {
+      "en": "Language",
+      "note": "Settings row that opens the app's page in the Settings app, where iOS lets the user pick the app's language."
+    },
+    "技术支持": {
+      "en": "Support",
+      "note": "Settings row that opens the support page."
+    },
+    "隐私政策": {
+      "en": "Privacy Policy",
+      "note": "Settings row that opens the privacy policy."
+    },
+    "使用条款": {
+      "en": "Terms of Use",
+      "note": "Settings row that opens the terms of use."
+    },
+    "关于": {
+      "en": "About",
+      "note": "Settings row that leads to the About page, and that page's title."
+    },
+    "版本": {
+      "en": "Version",
+      "note": "Row on the About page; the value is the version number."
+    },
+    "开源许可": {
+      "en": "Open Source License",
+      "note": "Row on the About page that leads to the open-source license page, and that page's title."
+    },
+    "作者": {
+      "en": "Author",
+      "note": "Row on the open-source license page; the value is the author's name, Zuming Hu."
+    },
+    "源代码": {
+      "en": "Source Code",
+      "note": "Row on the open-source license page that opens the source repository; the address shows under it."
+    },
+    "许可证": {
+      "en": "License",
+      "note": "Row on the open-source license page; the value is GNU GPL v3 and the row opens the license text."
+    },
+    "附加条款": {
+      "en": "Additional Terms",
+      "note": "Row on the open-source license page that opens the additional terms added to the GPL under its section 7."
+    },
+    "暂时无法载入视频": {
+      "en": "The video could not be loaded right now",
+      "note": "On a video card whose video failed to load (from iCloud, or a broken file); a 重试 button follows."
+    },
+    "播放位置": {
+      "en": "Playback position",
+      "note": "Accessibility label of the video scrubber's bar; its value is the time played, adjustable by 5 seconds."
+    },
+    "原项目": {
+      "en": "Original Project",
+      "note": "Original project attribution on the license page."
+    },
+    "名称与图标": {
+      "en": "Names and Icon",
+      "note": "Separate terms for the original names and icon."
+    },
+    "无法连接仓库，以下是 App 内附带的版本。": {
+      "en": "Can’t reach the repository. Showing the copy included with the app.",
+      "note": "Shown above a license document when its current text can't be loaded from the public repository (no network, or GitHub unreachable), so the copy bundled with the app is shown instead."
+    },
+    "在浏览器中打开": {
+      "en": "Open in Browser",
+      "note": "Toolbar button on a license document page that opens the file on GitHub; shown as an icon, read aloud by VoiceOver."
+    },
+    "代码采用 GNU GPL v3 及附加条款，你可以按这些条款再发布和修改。名称和图标另行授权。在法律允许的范围内，本软件不提供担保。": {
+      "en": "The code is licensed under GNU GPL v3 with additional terms; you may redistribute and modify it under those terms. Names and the icon are licensed separately. The software is provided without warranty to the extent permitted by law.",
+      "note": "Footer of the open-source license page: the license, that people may redistribute and modify the code under it, and the warranty disclaimer; the full terms are bundled with the app."
+    }
+  },
+  "infoPlist": {
+    "CFBundleDisplayName": {
+      "en": "Oushi",
+      "note": "App name on the Home Screen. ja, zh-Hant, zh-HK: 偶拾. Others: Oushi.",
+      "zh-Hans": "偶拾"
+    },
+    "CFBundleName": {
+      "en": "Oushi",
+      "note": "Same as the display name.",
+      "zh-Hans": "偶拾"
+    },
+    "NSPhotoLibraryUsageDescription": {
+      "en": "Oushi needs access to your photos to flip through, favorite, and tidy them. Photos you swipe down are kept in a deletion queue first.",
+      "note": "System permission prompt. zh-Hans original: 偶拾需要访问照片，以便随机翻看、收藏和整理你的照片。下滑的照片会先保存在待删除池。",
+      "zh-Hans": "偶拾需要访问照片，以便随机翻看、收藏和整理你的照片。下滑的照片会先保存在待删除池。"
+    }
+  },
+  "notLocalized": [
+    "空相册",
+    "这一组看完了",
+    "所有内容都看过了（有待删除）",
+    "所有内容都看过了（无待删除）",
+    "月亮",
+    "夜",
+    "夕阳",
+    "暮色",
+    "黄昏"
+  ]
+}

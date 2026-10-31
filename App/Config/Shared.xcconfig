@@ -1,0 +1,10 @@
+// Settings shared by every configuration. Debug.xcconfig and Release.xcconfig include this file; Oushi.xcconfig
+// holds the app target's own settings, and Local.xcconfig (kept out of git) the development team.
+SDKROOT = iphoneos
+IPHONEOS_DEPLOYMENT_TARGET = 26.0
+SWIFT_VERSION = 6.0
+SWIFT_STRICT_CONCURRENCY = complete
+SWIFT_TREAT_WARNINGS_AS_ERRORS = YES
+CLANG_ENABLE_MODULES = YES
+CLANG_ENABLE_OBJC_ARC = YES
+ENABLE_USER_SCRIPT_SANDBOXING = YES

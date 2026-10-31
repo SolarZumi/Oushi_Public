@@ -1,0 +1,7 @@
+// The app's identity. Set these to your own before building for a device or publishing your version: a bundle
+// identifier and an iCloud container registered to your Apple Developer team (or remove the iCloud capability), and
+// the website your About page should link to for support, the privacy policy and the terms of use.
+OUSHI_BUNDLE_IDENTIFIER = com.example.oushi
+OUSHI_CLOUD_CONTAINER = iCloud.com.example.oushi
+// Without the scheme, as "//" starts a comment in an xcconfig file; the app adds https://.
+OUSHI_WEBSITE = example.com/oushi
